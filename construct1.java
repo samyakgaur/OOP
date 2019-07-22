@@ -15,7 +15,8 @@ class construct1
 	//making a custom constructor
 	construct1(){
 	a=1;
-	f=5;
+	// use f to initialize float or else it takes it as double by default
+	f=5.0f;
 	d=10.0;
 	s="abc";
 	}
