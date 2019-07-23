@@ -20,42 +20,15 @@ class cmdinput
 /*
 Output is as follows :
 
-/* 
-Samyak Gaur(8604)
-Batch B
+universe@dell15:~/Desktop$ java cmdinput 4
+the char is: 4
 
-To create an object and use it follow the given step:
-> import java.util.*;
-> create object of scanner class 
-> to use inbuild method to take input 
-*/
+we can also use it to display strings/numbers by proper typecasting for example 
+universe@dell15:~/Desktop$ java cmdinput samyak
+the char is: samyak
 
-import java.util.*;
-class program3
-{
-	public static void main(String args[])
-		{
-			int a; 
-			String s;
-			Scanner sc = new Scanner(System.in);
-			System.out.print("Enter a number to input: ");
-			a = sc.nextInt();	
-			System.out.println("The entered number is: "+a);
-			System.out.print("Enter a String: ");
-			s = sc.next();
-			System.out.println("The entered string is: "+s);
-		}	//End of main	
-
-}	//End of class program3
-
-
-/*
-Output is as follows :
-
-universe@dell15:~/Desktop$ java program3
-Enter a number to input: 4
-The entered number is: 4
-Enter a String: samyak
-The entered string is: samyak
-
+we can print the second word by changing args[0] to args[1]
+for example, 
+universe@dell15:~/Desktop$ java cmdinput samyak gaur
+the char is: gaur
 */
