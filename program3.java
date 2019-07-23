@@ -6,6 +6,7 @@ To create an object and use it follow the given step:
 > import java.util.*;
 > create object of scanner class 
 > to use inbuild method to take input 
+A program to input a number and a string and display it
 */
 
 import java.util.*;
