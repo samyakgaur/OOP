@@ -1,5 +1,9 @@
-// Samyak Gaur 
-// Roll no: 8604 Batch B
+/* 
+Samyak Gaur(8604)
+Batch B
+
+A program to print a star pattern implementing nested loops
+*/
 
 import java.lang.*;
 class Starpattern
@@ -17,3 +21,17 @@ class Starpattern
 		}		
 	}
 }
+
+/*
+Output is as follows :
+
+universe@dell15:~/Desktop/8604$ javac Starpattern.java
+universe@dell15:~/Desktop/8604$ java Starpattern
+*
+**
+***
+****
+*****
+
+universe@dell15:~/Desktop/8604$
+*/
