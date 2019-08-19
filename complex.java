@@ -44,6 +44,7 @@ class complexopp{
 		int  x,y=0,d;
 		d=(c1.real*c2.real)+(c1.imag*c2.imag);
 		x=(c1.real*c2.real)+(c2.imag*c1.imag)/d;
+		x=(c1.real*c2.real)-(c2.imag*c1.imag)/d;
 		System.out.print("Answer= "+x+"+i"+y);
 	}//End of multiplications function
 }//End of complex operations class
