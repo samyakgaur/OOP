@@ -2,7 +2,7 @@
 Samyak Gaur(8604)
 Batch B
 
-A program to perform addition and subtraction on complex numbers
+A program to perform basic operatuions on complex numbers
 */
 
 
