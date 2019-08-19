@@ -108,5 +108,42 @@ public class rational{
 
 /*
 The output of the following code is 
+universe@dell15:~/Desktop/8604$ java rational
+Enter a: 2
+Enter b: 3
+Enter c: 3
+Enter d: 2
+
+ This calculator can perform the following tasks: 
+ 1.Add 
+ 2.Subtract 
+ 3.Multiplication 
+ 4.Division 
+ 5.Exit
+Enter your choice 3
+Answer= 6/6
+ This calculator can perform the following tasks: 
+ 1.Add 
+ 2.Subtract 
+ 3.Multiplication 
+ 4.Division 
+ 5.Exit
+Enter your choice 4
+Answer= 4/9
+universe@dell15:~/Desktop/8604$ javac rational.java
+universe@dell15:~/Desktop/8604$ java rational
+Enter a: 2
+Enter b: 3
+Enter c: 2
+Enter d: 3
+
+ This calculator can perform the following tasks: 
+ 1.Add 
+ 2.Subtract 
+ 3.Multiplication 
+ 4.Division 
+ 5.Exit
+Enter your choice 1
+Answer= 4/3
 
 */
