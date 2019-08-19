@@ -40,6 +40,12 @@ class complexopp{
 		y=(c1.real*c2.imag)+(c1.imag*c2.real);
 		System.out.print("Answer= "+x+"+i"+y);
 	}//End of multiplications function
+	void division(complexopp c1 , complexopp c2){
+		int  x,y=0,d;
+		d=(c1.real*c2.real)+(c1.imag*c2.imag);
+		x=(c1.real*c2.real)+(c2.imag*c1.imag)/d;
+		System.out.print("Answer= "+x+"+i"+y);
+	}//End of multiplications function
 }//End of complex operations class
 
 public class complex{
@@ -60,7 +66,7 @@ public class complex{
 		num2 = sc1.nextInt();
 		complexopp c2 = new complexopp(num1,num2);
 		while(true){
-				System.out.println("\n This calculator can perform the following tasks: \n 1.Add \n 2.Subtract \n 3.Multiplication  \n 4.Exit");
+				System.out.println("\n This calculator can perform the following tasks: \n 1.Add \n 2.Subtract \n 3.Multiplication \n 4.Division \n 5.Exit");
 				System.out.print("Enter your choice ");
 				choice = sc1.nextInt();	
 				switch(choice){
@@ -74,6 +80,9 @@ public class complex{
 							c1.multiplication(c1,c2);
 							break;
 					case 4:
+							c1.division(c1,c2);
+							break;
+					case 5:
 							System.exit(0);
 							break;
 					default:
@@ -84,3 +93,40 @@ public class complex{
 			
 	}//End of main function 
 }//End of complex class
+
+/*
+The output of the following code is 
+universe@dell15:~/Desktop/8604$ javac complex.java
+universe@dell15:~/Desktop/8604$ java complex
+Enter real part: 2
+Enter imaginary part: 2
+Enter real part: 3
+Enter imaginary part: 3
+
+ This calculator can perform the following tasks: 
+ 1.Add 
+ 2.Subtract 
+ 3.Multiplication  
+ 4.Division
+ 5.Exit
+Enter your choice 1
+Answer= 5+i5
+ This calculator can perform the following tasks: 
+ 1.Add 
+ 2.Subtract 
+ 3.Multiplication
+ 4.Division  
+ 5.Exit
+Enter your choice 2
+Answer= -1-1i
+ This calculator can perform the following tasks: 
+ 1.Add 
+ 2.Subtract 
+ 3.Multiplication  
+ 4.Division
+ 5.Exit
+Enter your choice 3
+Answer= 0+i12
+
+
+*/
