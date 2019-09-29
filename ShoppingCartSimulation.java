@@ -16,7 +16,7 @@ class ProductItem
 	}
 	public String toString()
 	{
-		return "ID : "+id+"Price : "+price; //string representation of Product Item
+		return "ID : "+id+"\nPrice : "+price; //string representation of Product Item
 	}
 }
 class ShoppingCart
@@ -76,14 +76,14 @@ public class ShoppingCartSimulation
 			switch(option)
 			{
 				case 1:
-					System.out.println("Which item put in bag:= ");
+					System.out.println("Which item put in bag: ");
 					int item_no1 = in.nextInt();
 
 					sc.addItem(p[item_no1]);
 
 				break;
 				case 2:
-					System.out.println("Which item to remove from bag:= ");
+					System.out.println("Which item to remove from bag: ");
 					int item_no2 = in.nextInt();
 
 					sc.removeItem(p[item_no2]);
@@ -103,22 +103,9 @@ public class ShoppingCartSimulation
 		Scanner in = new Scanner(System.in);
 		for(int i = 1 ; i < h.length; i++)
 		{
-			System.out.println("Enter price of a product item "+(i+1)+":= ");
+			System.out.print("Enter price of a product item "+(i)+": ");
 			double price = in.nextDouble();
 			h[i] = new ProductItem(i+1,price);
 		}
 	}
 } 
-
-/*
-import java.util.*;
-class vectordemo{
-	public static void main(String[] args){
-		Vector<Integer> v = new Vector<Integer>();
-		v.add(10);
-		v.add(20);
-		v.add("Samyak Gaur");
-		System.out.println("Vector is:"+v);	
-	}//End of main function
-}//End of class vector demo
-*/
