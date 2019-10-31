@@ -50,9 +50,9 @@ class matrix
 			for(int i =0 ; i<this.rows;i++)
 				for(int j = 0 ;j<m2.cols;j++)
 					for(int k =0;k<m2.rows;k++)
-						temp.m[i][j]=temp.m[i][j]+(this.m[i][k]*this.m[k][j]);
+						temp.m[i][j]=temp.m[i][j]+(this.m[i][k]*m[k][j]);
 		else 
-		System.out.print("Multiplication not possibke");
+		System.out.print("Multiplication not possible");
 		return temp;
 	}//End of Multiplication function 
 
