@@ -1,3 +1,3 @@
 # OOP
-code for my oop sessions.
+code for my Oop sessions.
 Language used : Java
