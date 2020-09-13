@@ -1,5 +1,5 @@
 # OOP
-code for my Oop sessions.
+Code o.
 Language used : Java
 
 ## Getting started
