@@ -1,5 +1,5 @@
 # OOP
-Code o.
+Code fo.
 Language used : Java
 
 ## Getting started
